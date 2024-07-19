@@ -45,7 +45,7 @@ const botonWhatsappMenu = document.getElementById("botonWhatsappMenu");
 // Agrega un manejador de eventos al botón
 botonWhatsapp.addEventListener("click", function() {
     // URL de WhatsApp que deseas abrir
-    const urlWhatsapp = "https://wa.me/+541144446992text=Muy%20feliz%20cumple%20Lau%20y%20gracias%20por%20recordarmelo";
+    const urlWhatsapp = "https://wa.me/+541144446992?text=Muy%20feliz%20cumple%20Lau%20y%20gracias%20por%20recordarmelo";
 
     // Redirige a la URL de WhatsApp
     window.open(urlWhatsapp, "_blank");
